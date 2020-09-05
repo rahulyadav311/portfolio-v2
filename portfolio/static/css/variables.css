@@ -1,0 +1,25 @@
+:root{
+
+	/* Font Family */
+	--poppins:'Poppins', sans-serif;
+	--oswald:'Oswald', sans-serif;
+	--prompt:'Prompt', sans-serif;
+	--inconsolata:'Inconsolata', monospace;
+
+	/* Colors */
+	--dark:#101820ff;
+	--yellow:#fee715ff;
+	--light:#fbfdf9;
+
+	/* Margin */
+	--mtb-50:50px auto;
+	--mtb-70:70px auto;
+	--mtb-100:100px auto;
+
+	/* Padding */
+	--ptb-50:50px 0;
+	--ptb-70:70px 0;
+	--ptb-100:100px 0;
+	--ptb-150:150px 0;
+
+}

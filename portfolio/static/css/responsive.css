@@ -1,0 +1,52 @@
+@media screen and (max-width: 1200px){}
+
+@media screen and (max-width: 1024px){} 
+
+@media screen and (max-width: 992px){
+	.navbar .toggle{right:50px;}
+}
+
+@media screen and (max-width: 768px){
+	.navbar .toggle{right:120px;}
+	.navbar hr{display:none;}
+	.navbar ul{margin:70px 0 0;}
+	.navbar ul li{display:block; margin:0 0 15px 0;}
+	.navbar ul li .link{font-size:40px;}
+	.navbar .social{margin:0;}
+	.navbar .social .button{display:block; width:150px; margin-bottom:30px;}
+	.navbar .social a{font-size:20px;}
+	.hero-section .tag{font-size:17px;}
+	.hero-section h1{font-size:70px;}
+	.hero-section h3{font-size:30px;}
+	.about-section h2:after{display:none;}
+	.about-section .image{width:40%;}
+	.work-section h3:after{display:none;}
+	.work-section .image{width:40%; margin:auto;}
+	.work-section .box{text-align:left;}
+	.work-section .box ul li h5{font-size:30px;}
+	footer .hireMe{text-align:left; margin:30px 0 0;}
+	footer .social{margin:0; text-align:left;}
+	footer .social a{margin:15px 15px 0 0;}
+	.hire-section h3:after{display:none;}
+	.hire-section img{display:none;}
+}
+
+@media screen and (max-width: 767px){
+	.loader .loader-container{left:40%;}
+	.hero-section .tag{font-size:15px; padding:10px 20px;}
+	.hero-section h1{font-size:40px;}
+	.hero-section h3{font-size:20px;}
+	.hero-section .arrow-down svg{width:20px; top:0;}
+	.about-section p{font-size:17px;}
+	.about-section ul li{font-size:15px;}
+	.about-section h2{font-size:30px;}
+	.about-section .image{width:70%;}
+	.work-section h3{font-size:30px;}
+	.work-section .image{width:70%;}
+	footer h3{font-size:40px;}
+	footer p{font-size:17px;}
+	footer .hireMe{font-size:20px;}
+	footer .social a{font-size:20px;}
+	.hire-section h3{font-size:30px;}
+	.hire-section form input, textarea{padding:10px; font-size:15px;}
+}
